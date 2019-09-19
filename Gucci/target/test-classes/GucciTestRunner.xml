@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Gucci Automation" parallel="false">
+
+    <parameter name="url" value="https://www.gucci.com"/>
+
+    <test name = "Functional">
+        <classes>
+<!--            <class name="home.Sign_In_Button"></class>-->
+<!--            <class name="home.Positive_Log_In"></class>-->
+<!--            <class name="home.Negative_Log_In"></class>-->
+            <class name="home.Cart_Icon"></class>
+<!--            <class name="home.SearchBar"></class>-->
+        </classes>
+    </test>
+
+</suite>
